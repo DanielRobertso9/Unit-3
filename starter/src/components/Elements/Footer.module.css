@@ -1,0 +1,43 @@
+footer {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: absolute;
+    bottom: 1;
+    background-color: rgb(77, 77, 77);
+    box-sizing: border-box;
+}
+h5 {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.socials {
+    height: auto;
+    width: auto;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    display: flex; 
+    gap: 10px 
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(69, 146, 133);
+}

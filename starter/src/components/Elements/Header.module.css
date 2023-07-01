@@ -1,0 +1,41 @@
+header {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 140px;
+    background-color: rgb(252, 125, 52);
+    box-sizing: border-box;
+}
+
+nav {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+  font-size: 22px;
+  color: white;
+}
+
+.linkBtn {
+  color: white;
+  background-color: rgb(252, 125, 52);
+  border: none;
+  border-radius: 10%;
+  transition: all 0.30s ease-in-out;
+  }
+
+.linkBtn:hover{
+  box-shadow: 10px 5px 5px rgb(76, 41, 21);
+  background-color: rgb(252, 154, 100);
+}
+
+.linkBtn:active {
+  background-color: rgb(252, 125, 52);
+  box-shadow: 2px 1px 1px rgb(76, 41, 21);
+}
+  

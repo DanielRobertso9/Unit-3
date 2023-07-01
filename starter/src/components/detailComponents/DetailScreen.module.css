@@ -1,0 +1,50 @@
+.detail_container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    padding: 20px;
+  }
+  
+  .detail_container h2 {
+    color: black;
+    text-align: center;
+  }
+    
+  .instructions_container {
+    max-width: 550px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.6);
+    box-sizing: border-box;
+    padding: 12px;
+    border-radius: 5px;
+  }
+  
+  .ingredents_container {
+    width: 300px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.6);
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  .img_container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-size: cover;
+    background-position: 50%, 50%;
+  }
+  
+  .recipe_name {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
